@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@1;300;400;600;700;800&display=swap");
+
+
+
+body {
+  padding-block: 3em;
+  font-family: "Sofia Sans", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: #f7fdfc;
+  justify-content: center;
+  flex-direction: column;
+  padding-inline: 24px;
+}
+
+.click {
+  text-align: center;
+  font-family: "Sofia Sans", sans-serif;
+}
+.last {
+  width: 100%;
+}
+.placeHolder {
+  font-family: "Sofia Sans", sans-serif;
+}
+
+.link-span {
+  color: #2ec4b6;
+  cursor: pointer;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.container-left > h1 {
+  font-family: "Sofia Sans", sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.container-left > p {
+  color: #737373;
+  font-family: "Sofia Sans", sans-serif;
+  width: 350px;
+  color: #737373;
+  font-size: 16px;
+  font-weight: 400;
+}
+.container-right > form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-radius: 6px;
+  width: 600px;
+}
+.input-container {
+  margin-bottom: 20px;
+  width: 45%;
+}
+.input-container > input {
+  border-radius: 2px;
+  border: 1px solid #f0f0f0;
+  outline: none;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  width: 95%;
+  padding-left: 10px;
+  margin-top: 8px;
+}
+.container-right > form > div > select {
+  width: 100%;
+  border-radius: 2px;
+  border: 1px solid #f0f0f0;
+  outline: none;
+  padding: 10px;
+  color: #737373;
+  font-family: "Sofia Sans", sans-serif;
+  margin-top: 8px;
+}
+.container-right > form > div > input:focus {
+  border: 2px solid #2ec4b6;
+}
+.container-right > form > div > select:focus {
+  border: 2px solid #2ec4b6;
+}
+.container-right > form > button {
+  background-color: #2ec4b6;
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: var(--basic-100, #fff);
+  text-align: center;
+  font-family: "Sofia Sans", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.2px;
+}
+.container-right > form > section {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.container-right > form > section > select:focus {
+  border: 2px solid #2ec4b6;
+}
+.container-right > form > section > select {
+  width: 100%;
+
+  border-radius: 2px;
+  border: 1px solid #f0f0f0;
+  outline: none;
+  padding: 10px;
+  color: #737373;
+  font-family: "Sofia Sans", sans-serif;
+  margin-top: 8px;
+}
+#password {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0;
+  padding-right: 0;
+
+  border-radius: 2px;
+  border: 1px solid #f0f0f0;
+  outline: none;
+
+  margin-top: 8px;
+}
+#password:focus {
+  border: 2px solid #2ec4b6;
+}
+.container-right {
+  background: #fff;
+  box-shadow: 0px 4px 50px 0px rgba(4, 8, 19, 0.1);
+  width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.input-container {
+  width: 48%;
+}
+label {
+  font-family: "Sofia Sans", sans-serif;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 769px) {
+  main {
+    flex-direction: column;
+  }
+  .container-right {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 6px;
+  }
+  .container-right > form {
+    flex-direction: column;
+    width: 100%;
+  }
+  .input-container {
+    width: 100%;
+  }
+  body {
+    background-color: #f7fdfc;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: auto;
+  }
+
+  .input-container > input {
+    width: 97%;
+  }
+
+  /* CSS */
+}
